@@ -271,7 +271,7 @@ const projectData = {
     outcome:
       "Successfully installed and configured 200+ servers for various clients. The installations improved system reliability and provided better resource allocation. All servers passed security audits and performance benchmarks.",
   },
-  project4: {
+  project5: {
     title: "Digital Portfolio (HCI Project)",
     description:
       "This portfolio website created as part of BITM 2313 Human Computer Interaction course, demonstrating HCI principles and modern web development practices.",
