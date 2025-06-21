@@ -209,25 +209,28 @@ const modalBody = document.getElementById("modal-body")
 
 const projectData = {
   project1: {
-    title: "UTeM Student Management System",
+    title: "ECORE Project",
     description:
-      "A comprehensive web-based student management system developed as my major project. This system handles student registration, course management, grade tracking, and administrative functions for academic institutions.",
+      "Handled a project that require building a server network using a used server in the warehouse to increase server capacity",
     image: "/placeholder.svg?height=400&width=600",
-    technologies: ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    technologies: ["Windows Server", "Linux", "VMware", "Network Configuration", "Server Hardware", "Network Setup"],
     features: [
-      "Student registration and profile management",
-      "Course enrollment and scheduling system",
-      "Grade management and transcript generation",
-      "Faculty dashboard for course management",
-      "Administrative panel for system oversight",
-      "Responsive design for mobile and desktop",
-      "Secure user authentication and authorization",
-      "Database backup and recovery system",
+      "Physical server hardware installation",
+      "Operating system deployment and configuration",
+      "Network services configuration (DNS, DHCP)",
+      "Security policies and firewall configuration",
+      "Backup and disaster recovery setup",
+      "Performance monitoring and optimization",
+      "Cable management and rack organization",
+      "Service restoration and validation",
+      "Documentation of new infrastructure",
+      "Client training on new setup",
+      "Client training and documentation",
     ],
     challenges:
-      "The main challenges included designing a scalable database schema to handle complex relationships between students, courses, and faculty, implementing secure user authentication with different access levels, and ensuring data integrity across all transactions.",
+      "The main challenges is to managing the cabling from the source and to properly do cabling from cable pathway into each server",
     outcome:
-      "Successfully developed a fully functional student management system that can handle 500+ students and 50+ courses. The project received excellent feedback from supervisors and demonstrated strong full-stack development skills. Currently being considered for implementation in a local educational institution.",
+      "Successfully developed a fully functional 10 rack server network without any problem",
   },
   project2: {
     title: "Server Migration & Relocation Project",
@@ -271,7 +274,7 @@ const projectData = {
     outcome:
       "Successfully installed and configured 200+ servers for various clients. The installations improved system reliability and provided better resource allocation. All servers passed security audits and performance benchmarks.",
   },
-  project5: {
+  project4: {
     title: "Digital Portfolio (HCI Project)",
     description:
       "This portfolio website created as part of BITM 2313 Human Computer Interaction course, demonstrating HCI principles and modern web development practices.",
