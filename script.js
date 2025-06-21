@@ -208,6 +208,27 @@ const modalOverlay = document.getElementById("modal-overlay")
 const modalBody = document.getElementById("modal-body")
 
 const projectData = {
+  project1: {
+    title: "UTeM Student Management System",
+    description:
+      "A comprehensive web-based student management system developed as my major project. This system handles student registration, course management, grade tracking, and administrative functions for academic institutions.",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    features: [
+      "Student registration and profile management",
+      "Course enrollment and scheduling system",
+      "Grade management and transcript generation",
+      "Faculty dashboard for course management",
+      "Administrative panel for system oversight",
+      "Responsive design for mobile and desktop",
+      "Secure user authentication and authorization",
+      "Database backup and recovery system",
+    ],
+    challenges:
+      "The main challenges included designing a scalable database schema to handle complex relationships between students, courses, and faculty, implementing secure user authentication with different access levels, and ensuring data integrity across all transactions.",
+    outcome:
+      "Successfully developed a fully functional student management system that can handle 500+ students and 50+ courses. The project received excellent feedback from supervisors and demonstrated strong full-stack development skills. Currently being considered for implementation in a local educational institution.",
+  },
   project2: {
     title: "Server Migration & Relocation Project",
     description:
@@ -251,31 +272,6 @@ const projectData = {
       "Successfully installed and configured 200+ servers for various clients. The installations improved system reliability and provided better resource allocation. All servers passed security audits and performance benchmarks.",
   },
   project4: {
-    title: "ECORE Project",
-    description:
-      "Complete a big project during internship. Making a new server network with used server in warehouse",
-    image: "/placeholder.svg?height=400&width=600",
-    technologies: ["Server Hardware", "Windows Server", "Linux", "Network Setup"],
-    features: [
-      "Physical server hardware installation",
-      "Operating system deployment and configuration",
-      "Network services configuration (DNS, DHCP)",
-      "Security policies and firewall configuration",
-      "Backup and disaster recovery setup",
-      "Performance monitoring and optimization",
-      "Cable management and rack organization",
-      "Client training and documentation",
-      "Network reconfiguration and testing",
-      "Service restoration and validation",
-      "Documentation of new infrastructure",
-      "Client training on new setup",
-    ],
-    challenges:
-      "Key challenges included hardware compatibility verification, needing to connect the cable from the core into the server, proper cable management in cable pathway  and server racks, configuring complex network settings, and ensuring all security protocols met client standards.",
-    outcome:
-      "Successfully installed and configured 10 racks of server. The installations improved system reliability and provided better resource allocation. All servers passed security audits and performance benchmarks.",
-  },
-  project5: {
     title: "Digital Portfolio (HCI Project)",
     description:
       "This portfolio website created as part of BITM 2313 Human Computer Interaction course, demonstrating HCI principles and modern web development practices.",
@@ -360,13 +356,13 @@ const modalStyles = `
 
 .modal-info h2 {
     font-size: 2rem;
-    color: #1f2937;
+    color: #f1f5f9;
     margin-bottom: 1rem;
 }
 
 .modal-description {
     font-size: 1.1rem;
-    color: #6b7280;
+    color: #94a3b8;
     margin-bottom: 2rem;
     line-height: 1.6;
 }
@@ -377,7 +373,7 @@ const modalStyles = `
 
 .modal-section h3 {
     font-size: 1.3rem;
-    color: #1f2937;
+    color: #f1f5f9;
     margin-bottom: 1rem;
 }
 
@@ -395,19 +391,19 @@ const modalStyles = `
 
 .modal-features li {
     padding: 0.5rem 0;
-    border-bottom: 1px solid #e5e7eb;
-    color: #374151;
+    border-bottom: 1px solid #475569;
+    color: #e2e8f0;
 }
 
 .modal-features li:before {
     content: '✓';
-    color: #10b981;
+    color: #22c55e;
     font-weight: bold;
     margin-right: 0.5rem;
 }
 
 .modal-section p {
-    color: #6b7280;
+    color: #94a3b8;
     line-height: 1.6;
 }
 
